@@ -8,7 +8,7 @@
 	body{background-image: url(assets/Images/back.jpg); font-family: 微軟正黑體;}
 	body{background-image: url(assets/Images/back.jpg);}
     h1{padding-left: 150px; padding-right: 150px; color:#A87F46; position:absolute; top: 17%}
-    hr{position:absolute; top: 25%; left: 10%;}
+    hr{position:absolute; top: 25%; left: 10%; border-top:3px solid #A87F46; width: 1210px;}
 
 	img:hover.logo{opacity: 1;}
 
@@ -17,7 +17,7 @@
 	li.a{margin: 12px;}
 
     div.b{height: 370px; padding-right: 150px; width: 750px; padding-top: 17px; text-align:left; font-size: 17px; line-height: 20px; padding:50px;
-          background-color: #F5E9D1; position:absolute; left: 19%; top: 35%; padding-left: 150px; float: center;}
+          background-color: #F5E9D1; position:absolute; left: 19%; top: 35%; padding-left: 150px; }
 
     input.input {padding:5px 15px; background:white; border:0 none;
             cursor:pointer;
@@ -74,9 +74,9 @@
 </head>
 
 <body>
-<img class="logo" src="assets/Images/logo2.png" width="25%" height="25%">
+<img class="logo" src="assets/Images/logo2.png" width="25%" height="25%" alt="pure css3 slider">
 
-<h1>意見回饋</h1><hr color="#A87F46" size="3" width="1210">
+<h1>意見回饋</h1><hr>
 
 <div id="menu">
   <ul>
@@ -156,11 +156,11 @@
 <textarea class="input" id="message" name="message" placeholder="Your Message to Us" rows="5" cols="50"></textarea>
 </label><p>
 
-<label>
+
 <span>&nbsp;</span>
 <input type="button" class="button" value="送出" />
 <input type="reset" class="button" value="清除" />
-</label>
+
 </form>
 </div>
 </body>
